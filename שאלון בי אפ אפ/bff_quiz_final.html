@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="he">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>שאלון החברות הכי טובה</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+            margin: 0;
+            background-color: #ffe6f2;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+        }
+        .container {
+            background: white;
+            padding: 20px;
+            border-radius: 15px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            max-width: 400px;
+            width: 90%;
+            margin: 20px;
+        }
+        h1 {
+            color: #e60073;
+        }
+        p {
+            font-size: 18px;
+        }
+        .btn {
+            display: inline-block;
+            background-color: #e60073;
+            color: white;
+            padding: 10px 20px;
+            text-decoration: none;
+            border-radius: 5px;
+            margin-top: 20px;
+        }
+        .btn:hover {
+            background-color: #b30059;
+        }
+        .question {
+            text-align: right;
+            font-size: 18px;
+            margin: 15px 0;
+        }
+        .options {
+            text-align: right;
+        }
+        label {
+            display: block;
+            font-size: 16px;
+            margin: 5px 0;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>שאלון החברות הכי טובה 💖</h1>
+        <form action="#">
+            <div class="question">מה את מעדיפה?</div>
+            <div class="options">
+                <label><input type="radio" name="season"> ☀️ קיץ</label>
+                <label><input type="radio" name="season"> ❄️ חורף</label>
+            </div>
+            <div class="question">בריכה או ים?</div>
+            <div class="options">
+                <label><input type="radio" name="water"> 🏊‍♀️ בריכה</label>
+                <label><input type="radio" name="water"> 🌊 ים</label>
+            </div>
+            <div class="question">את יותר טיפוס של בוקר או לילה?</div>
+            <div class="options">
+                <label><input type="radio" name="time"> 🌅 בוקר</label>
+                <label><input type="radio" name="time"> 🌙 לילה</label>
+            </div>
+            <div class="question">מה המשקה האהוב עלייך?</div>
+            <div class="options">
+                <label><input type="radio" name="drink"> ☕ שוקו חם</label>
+                <label><input type="radio" name="drink"> 🧊 אייס קפה</label>
+                <label><input type="radio" name="drink"> 🍓 שייק פירות</label>
+                <label><input type="radio" name="drink"> 💧 מים</label>
+            </div>
+            <div class="question">איזה סרט של דיסני את הכי אוהבת?</div>
+            <div class="options">
+                <label><input type="radio" name="disney"> 🧜‍♀️ בת הים הקטנה</label>
+                <label><input type="radio" name="disney"> ✨ אלאדין</label>
+                <label><input type="radio" name="disney"> 👑 סינדרלה</label>
+                <label><input type="radio" name="disney"> 🌸 רפונזל</label>
+            </div>
+            <div class="question">איזו עיר בעולם היית רוצה לבקר בה?</div>
+            <div class="options">
+                <label><input type="radio" name="city"> 🗼 פריז</label>
+                <label><input type="radio" name="city"> 🏝️ מלדיביים</label>
+                <label><input type="radio" name="city"> 🏙️ ניו יורק</label>
+                <label><input type="radio" name="city"> 🏯 טוקיו</label>
+            </div>
+            <div class="question">איזה צבע הכי מתאים לאישיות שלך?</div>
+            <div class="options">
+                <label><input type="radio" name="color"> ❤️ אדום</label>
+                <label><input type="radio" name="color"> 💙 כחול</label>
+                <label><input type="radio" name="color"> 💛 צהוב</label>
+                <label><input type="radio" name="color"> 💜 סגול</label>
+            </div>
+            <div class="question">איזה צ'ארם היית רוצה להוסיף לצמיד הפנדורה שלך?</div>
+            <div class="options">
+                <label><input type="radio" name="charm"> 🏰 צ'ארם כסף זכוכית מוראנו סינדרלה</label>
+                <label><input type="radio" name="charm"> 🐻 צ'ארם דיסני כסף איה פו הדוב</label>
+                <label><input type="text" name="custom_charm" placeholder="או כתבי כאן..." style="width: 100%; padding: 5px;"></label>
+            </div>
+            <button type="submit" class="btn">שלחי את התשובות</button>
+        </form>
+    </div>
+</body>
+</html>
